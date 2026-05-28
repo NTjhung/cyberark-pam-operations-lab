@@ -1,0 +1,13 @@
+AccountName,AccountType,Environment,OwnerTeam,BusinessOwner,TargetSystem,SafeName,RiskLevel,ApprovalRequired,RotationRequired,SessionMonitoringRequired,ReviewFrequency,Status
+win-prod-localadmin,Windows Local Administrator,Production,Windows Server Team,Infrastructure Manager,PROD-WIN-SRV-01,SAFE-WIN-PROD-ADMINS,High,Yes,Yes,Yes,Monthly,Active
+win-prod-sqladmin,Windows Local Administrator,Production,Windows Server Team,Infrastructure Manager,PROD-SQL-SRV-01,SAFE-WIN-PROD-ADMINS,High,Yes,Yes,Yes,Monthly,Active
+linux-prod-root,Linux Root,Production,Linux Team,Infrastructure Manager,PROD-LINUX-01,SAFE-LINUX-PROD-ROOT,High,Yes,Yes,Yes,Monthly,Active
+sql-prod-dba,Database Administrator,Production,Database Team,Database Manager,PROD-SQL-DB-01,SAFE-DBA-PROD,High,Yes,Yes,Yes,Monthly,Active
+net-fw-admin,Network Device Administrator,Production,Network Team,Network Manager,PROD-FW-01,SAFE-NETWORK-ADMINS,High,Yes,Yes,Yes,Monthly,Active
+net-switch-admin,Network Device Administrator,Production,Network Team,Network Manager,PROD-SW-01,SAFE-NETWORK-ADMINS,High,Yes,Yes,Yes,Monthly,Active
+appsvc-prod-payroll,Application Service Account,Production,Application Team,Payroll Application Owner,PROD-PAYROLL-APP,SAFE-APP-SERVICE-ACCOUNTS,Medium,Yes,Planned,No,Quarterly,Active
+appsvc-prod-hr,Application Service Account,Production,Application Team,HR Application Owner,PROD-HR-APP,SAFE-APP-SERVICE-ACCOUNTS,Medium,Yes,Planned,No,Quarterly,Active
+breakglass-admin01,Break-Glass Administrator,Production,IAM Security Team,Security Manager,Tenant Emergency Access,SAFE-BREAKGLASS,Critical,Yes,Yes,Yes,Monthly,Active
+cloud-admin-prod,Cloud Administrator,Cloud,Cloud IAM Team,Cloud Manager,Production Cloud Tenant,SAFE-CLOUD-ADMINS,High,Yes,Yes,Yes,Monthly,Active
+win-nonprod-localadmin,Windows Local Administrator,Non-Production,Windows Server Team,Infrastructure Manager,NONPROD-WIN-SRV-01,SAFE-WIN-NONPROD-ADMINS,Medium,No,Yes,Optional,Quarterly,Active
+vendor-prod-admin,Vendor Privileged Account,Production,Application Team,Application Owner,PROD-APP-01,SAFE-VENDOR-ACCESS,High,Yes,Yes,Yes,Monthly,Active
