@@ -46,7 +46,7 @@ CyberArk helps organizations reduce privileged access risk by supporting passwor
 
 Hands-on CyberArk access was available for this project, but screenshots were not permitted. No screenshots from the CyberArk environment are included.
 
-To respect the access restrictions, this project uses original documentation and sanitized artifacts instead of screenshots.
+To respect the access restrictions, this project uses original documentation, sample data, workflow diagrams, and sanitized artifacts instead of screenshots.
 
 ## Project Files
 
@@ -103,11 +103,11 @@ Password rotation helps reduce credential risk by changing privileged account pa
 
 ### CPM
 
-Central Policy Manager is commonly associated with password management and password rotation operations.
+Central Policy Manager is commonly associated with password management, password verification, password changes, and password reconciliation workflows.
 
 ### PSM
 
-Privileged Session Manager is commonly associated with privileged session isolation, monitoring, and recording workflows.
+Privileged Session Manager is commonly associated with privileged session isolation, monitoring, recording, and controlled access workflows.
 
 ### Break-Glass Access
 
@@ -115,7 +115,15 @@ Break-glass accounts provide emergency access when normal privileged access work
 
 ### Audit Evidence
 
-Audit evidence includes access requests, approvals, onboarding records, password rotation records, session records, and remediation notes.
+Audit evidence includes access requests, approvals, onboarding records, password rotation records, session records, troubleshooting notes, and remediation notes.
+
+## Lab Evidence Summary
+
+This project includes a complete evidence summary showing how the documentation, sample data, workflow diagram, and runbooks support PAM operations and audit readiness.
+
+Evidence is documented in:
+
+- evidence/lab-evidence-summary.md
 
 ## Resume Bullet
 
@@ -123,4 +131,4 @@ Audit evidence includes access requests, approvals, onboarding records, password
 
 ## Status
 
-In progress. This project will be updated with PAM documentation, sample data, workflow diagrams, and audit evidence summaries.
+Completed CyberArk PAM operations lab with hands-on CyberArk access, original documentation, safe design planning, privileged account onboarding workflow, access request workflow, password rotation plan, PSM session monitoring workflow, CPM/PSM troubleshooting checklists, break-glass plan, audit evidence packet, sample data, and workflow diagram.
