@@ -1,0 +1,10 @@
+SafeName,AccountType,Environment,OwnerTeam,AccessLevel,ApprovalRequired,SessionMonitoringRequired,PasswordRotationRequired,ReviewFrequency,Purpose
+SAFE-WIN-PROD-ADMINS,Windows Local Administrator,Production,Windows Server Team,High,Yes,Yes,Yes,Monthly,Stores production Windows local administrator accounts
+SAFE-WIN-NONPROD-ADMINS,Windows Local Administrator,Non-Production,Windows Server Team,Medium,No,Optional,Yes,Quarterly,Stores non-production Windows local administrator accounts
+SAFE-LINUX-PROD-ROOT,Linux Root and Admin,Production,Linux Team,High,Yes,Yes,Yes,Monthly,Stores production Linux root and administrator accounts
+SAFE-DBA-PROD,Database Administrator,Production,Database Team,High,Yes,Yes,Yes,Monthly,Stores production database administrator accounts
+SAFE-NETWORK-ADMINS,Network Device Administrator,Production,Network Team,High,Yes,Yes,Yes,Monthly,Stores firewall switch router and network device admin accounts
+SAFE-APP-SERVICE-ACCOUNTS,Application Service Account,Production,Application Team,Medium,Yes,No,Planned,Quarterly,Stores application service accounts that require coordinated password rotation
+SAFE-BREAKGLASS,Break-Glass Administrator,Production,IAM Security Team,Critical,Yes,Yes,Yes,Monthly,Stores emergency privileged access accounts
+SAFE-CLOUD-ADMINS,Cloud Administrator,Cloud,Cloud IAM Team,High,Yes,Yes,Yes,Monthly,Stores cloud administrator accounts
+SAFE-VENDOR-ACCESS,Vendor Privileged Account,Production,Application Team,High,Yes,Yes,Yes,Monthly,Stores vendor or contractor privileged access accounts
